@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gojoformat/static/css/main.6e74b206.css",
+    "main.js": "/gojoformat/static/js/main.982b2a18.js",
+    "static/js/787.0db8d260.chunk.js": "/gojoformat/static/js/787.0db8d260.chunk.js",
+    "index.html": "/gojoformat/index.html",
+    "main.6e74b206.css.map": "/gojoformat/static/css/main.6e74b206.css.map",
+    "main.982b2a18.js.map": "/gojoformat/static/js/main.982b2a18.js.map",
+    "787.0db8d260.chunk.js.map": "/gojoformat/static/js/787.0db8d260.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e74b206.css",
+    "static/js/main.982b2a18.js"
+  ]
+}
