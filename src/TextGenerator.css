@@ -1,0 +1,40 @@
+/* src/TextGenerator.css */
+.text-generator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: row; /* 將輸入欄位水平排列 */
+  flex-wrap: wrap; /* 換行 */
+  justify-content: space-between; /* 在容器中平均分配空間 */
+  margin-top: 20px;
+}
+
+label {
+  width: 50%; /* 使 label 寬度為容器的一半，兩個 label 就會排成一列 */
+  margin-bottom: 10px;
+}
+
+input {
+  width: 50%; /* 輸入欄位寬度填滿 label 的寬度 */
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%; /* 讓按鈕寬度填滿容器 */
+  padding: 10px;
+  background-color: #61dafb; /* 以 React 的顏色為例 */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+p {
+  white-space: pre-line; /* 保留換行符號和空格 */
+}
