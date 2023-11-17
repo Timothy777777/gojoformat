@@ -18,7 +18,6 @@ const TextGenerator = () => {
 
     const handleCopyToClipboard = () => {
         const textToCopy = generateText();
-
         // 使用 navigator.clipboard.writeText 複製到剪貼簿
         navigator.clipboard.writeText(textToCopy)
             .then(() => {
