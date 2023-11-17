@@ -18,7 +18,18 @@ const TextGenerator = () => {
 
     const handleCopyToClipboard = () => {
         const textToCopy = generateText();
-        navigator.clipboard.writeText(textToCopy);
+
+        // 使用 navigator.clipboard.writeText 複製到剪貼簿
+        navigator.clipboard.writeText(textToCopy)
+            .then(() => {
+                // 複製成功時的提示
+                alert('成功複製到剪貼簿');
+            })
+            .catch((error) => {
+                // 複製失敗時的提示
+                console.error('複製失敗', error);
+                alert('複製失敗，請手動複製');
+            });
     };
 
     return (
